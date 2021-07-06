@@ -1,0 +1,107 @@
+body{
+    margin:0 auto;
+}
+header{
+    margin-bottom: 800px;
+}
+header .navbar-brand{
+    margin-left: 1rem;
+}
+
+.banner{
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: center center;
+    background-repeat: no-repeat;
+}
+.carousel-item img{
+    height: 100vh;
+}
+/*--
+navbar smoth scrolling bg color
+}--*/
+.bg-black{
+	background:#000000d9;
+    transition: all ease 0.5s;
+}
+.navbar{
+    padding: 10px 0px 10px 0px !important;
+}
+.navbar-brand{
+    margin-left:35px !important;
+    color:#ffffff !important;
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 5px;
+    text-shadow: 2px 1px 4px rgb(0 0 0);
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffffe8;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffffc4;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+a.nav-link {
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+li.nav-item {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(255 255 255 / 80%);
+    border-color: rgb(255 255 255);
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(img/icon-menu.png);
+}
+h5 {
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 0.9px;
+    color: #fff;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+h6 {
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #fff;
+    padding-bottom: 15px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    
+}
+.carousel-caption{
+    bottom:30%;
+}
+.btns a{
+    color: #282828;
+    text-decoration: none;
+    background: #e2d3d3;
+    padding: 8px 25px 10px 25px;
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.btns a:hover{
+    color: #000000;
+    background: #ffffff;
+    transition: 0.5s ease;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
